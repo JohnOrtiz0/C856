@@ -2,7 +2,7 @@
 
 .main-image {
 
-    min-height: 800px;
+    min-height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
     font-size: 40px;
     text-align: center;
     color: white;
-    margin-top: 600px;
+    margin-top: 500px;
     background-color: #676767;
     opacity: 0.75;
 }
