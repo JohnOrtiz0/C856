@@ -1,8 +1,7 @@
-﻿/* NAVIGATION BAR */
+/* NAVIGATION BAR */
 
 .main-image {
-
-    min-height: 700px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,61 +58,6 @@
     padding-top: 10px;
     padding-right: 20px;
     width: 200px;
-}
-
-/* INTRO */
-
-.intro-text {
-    text-align: center;
-    margin: 100px;
-    padding: 40px;
-    font-family: 'Lucida Calligraphy';
-    color: #939696;
-}
-
-/* MAIN CONTENT */
-
-.text-container {
-    font-size: 30px;
-    margin: 40px;
-    padding: 50px;
-    text-align: center;
-    background-color: #c6e7f5;
-    border-radius: 10px;
-    line-height: 1.5;
-}
-
-.image-container {
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 30px;
-    display: inline-block;
-}
-
-.image {
-    height: 700px;
-    width: 600px;
-    border-radius: 10px;
-}
-
-.restaurant-info {
-    background-color: #c6e7f5;
-    border-radius: 10px;
-    font-size: 30px;
-    line-height: 1.5;
-    text-align: center;
-    padding: 50px;
-    margin: 40px;
-}
-
-.store-info {
-    background-color: #c6e7f5;
-    border-radius: 10px;
-    font-size: 30px;
-    line-height: 1.5;
-    text-align: center;
-    padding: 50px;
-    margin: 40px;
 }
 
 /* FOOTER */
