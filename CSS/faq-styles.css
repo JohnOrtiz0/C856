@@ -66,9 +66,9 @@
     width: 200px;
 }
 
-/* HERO */
+/* INTRO */
 
-.hero-text {
+.intro-text {
     text-align: center;
     margin: 100px;
     padding: 40px;
@@ -83,19 +83,20 @@
     margin: 50px;
     padding: 50px;
     font-family: 'Lucida Calligraphy';
+    background-color: black;
+    color: #c6e7f5;
+    border-radius: 10px;
 }
 
-.image {
-    display: flex;
-    margin: 100px;
+.main-content-images {
+    height: 600px;
+    width: 1000px;
+    padding: 30px;
+    display: grid;
     justify-content: center;
-}
-
-.faq-container {
+    border-radius: 10px;
     margin-left: 200px;
-    margin-right: 200px;
-    background-color: #c6e7f5;
-    border-radius: 20px;
+    margin-right: 80px;
 }
 
 .faq-list {
@@ -103,6 +104,9 @@
     text-align: left;
     margin: 60px;
     padding: 60px;
+    background-color: black;
+    color: #c6e7f5;
+    border-radius: 10px;
 }
 
 .ul-container {

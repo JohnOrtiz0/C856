@@ -116,7 +116,8 @@
     background-color: #c6e7f5;
     border-radius: 10px;
     padding: 30px;
-    color: black;
+    background-color: black;
+    color: #c6e7f5;
 }
 
 .text-box {
@@ -125,7 +126,8 @@
     line-height: 1.5;
     border-radius: 10px;
     text-align: center;
-    background-color: #c6e7f5;
+    background-color: black;
+    color: #c6e7f5;
 }
 
 .image-container {
@@ -137,7 +139,7 @@
     height: 700px;
     width: 600px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 60px;
 }
 
 /* FOOTER */

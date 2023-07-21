@@ -70,47 +70,35 @@
 
 .intro-text {
     text-align: center;
-    margin: 100px;
     padding: 40px;
+    margin: 40px;
     font-family: 'Lucida Calligraphy';
+    background-color: black;
+    color: #c6e7f5;
+    border-radius: 10px;
 }
 
 /* MAIN CONTENT */
 
-.transportation-to-the-island {
+.main-content-images {
+    height: 600px;
+    width: 1000px;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
     margin-left: 200px;
-    margin-right: 200px;
-    background-color: #c6e7f5;
-    border-radius: 20px;
+    margin-right: 80px;
 }
 
-.transportation-on-the-island {
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: #c6e7f5;
-    border-radius: 20px;
-}
-
-.transportation-image {
-    margin: 40px;
-    padding: 40px;
-}
-
-.text-container {
-    height: 550px;
-    width: 500px;
+.text-box {
     font-size: 30px;
-    margin: 10px;
-    padding: 20px;
-    display: grid;
-    justify-content: center;
-    text-align: center;
+    padding: 30px;
     line-height: 1.5;
-}
-
-.grid-container {
-    display: grid;
-    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color: #c6e7f5;
 }
 
 /* FOOTER */

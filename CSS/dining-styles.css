@@ -84,7 +84,8 @@
     margin: 40px;
     padding: 50px;
     text-align: center;
-    background-color: #c6e7f5;
+    background-color: black;
+    color: #c6e7f5;
     border-radius: 10px;
     line-height: 1.5;
 }
@@ -103,7 +104,8 @@
 }
 
 .restaurant-info {
-    background-color: #c6e7f5;
+    background-color: black;
+    color: #c6e7f5;
     border-radius: 10px;
     font-size: 30px;
     line-height: 1.5;
@@ -113,7 +115,8 @@
 }
 
 .store-info {
-    background-color: #c6e7f5;
+    background-color: black;
+    color: #c6e7f5;
     border-radius: 10px;
     font-size: 30px;
     line-height: 1.5;
