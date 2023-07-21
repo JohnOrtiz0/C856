@@ -60,9 +60,9 @@
     width: 200px;
 }
 
-/* HERO */
+/* INTRO */
 
-.hero-text {
+.intro-text {
     text-align: center;
     margin: 100px;
     padding: 40px;
@@ -74,31 +74,9 @@
 
 .image {
     height: 700px;
-    width: 600px;
+    width: 500px;
     border-radius: 10px;
-}
-
-.image-offerings {
     display: inline-block;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 40px;
-}
-
-.image-description-layer {
-    visibility: hidden;
-    background: rgba(36, 62, 206, 0.6);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-offerings:hover .image-description-layer {
-    visibility: visible;
-    opacity: 1;
 }
 
 /* FOOTER */
