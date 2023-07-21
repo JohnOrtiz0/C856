@@ -23,7 +23,7 @@
 
     <div class="main-image">
 
-        <div class="top-nav">
+        <div id="top-nav">
 
             <div class="visit-container">
                 <a href="taniti_index.html">
@@ -34,7 +34,7 @@
             <a href="taniti_index.html">Home</a>
             <a href="transportation.html">Transportation</a>
             <a href="dining.html">Dining</a>
-            <a id="highlight" href="entertainment.html">Entertainment</a>
+            <a class="highlight" href="entertainment.html">Entertainment</a>
             <a href="lodging.html">Lodging</a>
             <a href="faq.html">FAQ</a>
 
@@ -52,23 +52,21 @@
 
     </div>
 
-    <!-- MAIN CONTENT -->
+    <!-- OFFERINGS CONTAINER -->
 
     <div class="image-container">
 
         <div class="image-wrapper">
-            <a href="#footer">
+            <a href="#sightseeing-section">
                 <img class="image" src="Images/bird.jpeg" alt="Bird">
-                <div class="image-description-layer">
-                    <p class="image-description">
-                        Sightseeing
-                    </p>
-                </div>
+                <p class="image-description">
+                    Sightseeing
+                </p>
             </a>
         </div>
 
         <div class="image-wrapper">
-            <a href="#footer">
+            <a href="#entertainment-section">
                 <img class="image" src="Images/wave.jpeg" alt="Wave">
                 <div class="image-description-layer">
                     <p class="image-description">
@@ -76,6 +74,68 @@
                     </p>
                 </div>
             </a>
+        </div>
+
+    </div>
+
+    <!-- ENTERTAINMENT SECTION -->
+
+    <div id="entertainment-section">
+
+        <div class="intro-text">
+            <h1 class="offering-container-intro-text">
+                Explore the Vast Array of Activities Taniti Has to Offer!
+            </h1>
+        </div>
+
+        <div class="image-container">
+
+            <div>
+                <img class="main-content-images" src="Images/snorkel.jpeg" alt="snorkeling">
+
+                <img class="main-content-images" src="Images/fishing.jpeg" alt="fishing">
+
+            </div>
+
+        </div>
+
+        <div class="text-box">
+            <p>
+                Most people visit Taniti to enjoy the beaches, explore the rainforest,
+                and to visit the volcano. However, there are other things to do, including
+                visiting a local history museum, going on chartered fishing tours, snorkeling,
+                zip-lining in the rainforest, visiting several pubs, including a microbrewery,
+                dancing at a new dance club, seeing a movie, taking helicopter rides, playing
+                at an arcade, visiting art galleries, and bowling. Also, a nine-hole golf
+                course should be operational by next year. Many of these activities are located
+                in Merriton Landing, which is a rapidly developing area on the north side of
+                Yellow Leaf Bay.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- SIGHTSEEING SECTION -->
+
+    <div id="sightseeing-section">
+
+        <div class="intro-text">
+            <h1 class="offering-container-intro-text">
+                Explore the Beautiful Sights Taniti Has to Offer!
+            </h1>
+        </div>
+
+        <div>
+            <img class="main-content-images" src="Images/beach.jpeg" alt="beach">
+            <div class="text-box">
+                <p>
+                    Most tourists spend most of their time in Taniti City,
+                    which boasts native architecture and nearby white, sandy
+                    beaches that encircle Yellow Leaf Bay. Other popular activities
+                    include boat or bus tours of the island, hikes in the rainforest,
+                    or visits to Taniti’s active volcano.
+                </p>
+            </div>
         </div>
 
     </div>
@@ -95,6 +155,24 @@
             <a href="entertainment.html">Back to Top</a>
         </div>
     </footer>
+
+    <!-- SCRIPT -->
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("top-nav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+                navbar.classList.add("highlight")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 
 </body>
 

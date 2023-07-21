@@ -21,7 +21,7 @@
 
     <div class="main-image">
 
-        <div class="top-nav">
+        <div id="top-nav">
 
             <div class="visit-container">
                 <a href="taniti_index.html">
@@ -134,5 +134,23 @@
         </div>
     </footer>
 
+    <!-- SCRIPT -->
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("top-nav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
 </body>
+
 </html>
