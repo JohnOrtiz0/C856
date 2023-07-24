@@ -26,6 +26,11 @@
     padding-left: 20px;
 }
 
+.logo {
+    height: 90px;
+    width: 80px;
+}
+
 #top-nav {
     overflow: hidden;
     background-color: #676767;
