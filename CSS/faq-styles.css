@@ -121,12 +121,12 @@
 /* FOOTER */
 
 .footer {
-    min-height: 300px;
+    min-height: 200px;
     min-width: max-content;
     background-color: black;
     background-size: cover;
     border-radius: 10px;
-    color: #939696;
+    color: #c6e7f5;
 }
 
 .back-to-top {
@@ -134,4 +134,20 @@
     display: grid;
     justify-content: center;
     color: #c6e7f5;
+}
+
+.footer-continer {
+    display: inline-block;
+}
+
+.list-container {
+    text-decoration: none;
+    position: relative;
+    float: right;
+    color: #c6e7f5;
+    padding: 40px;
+}
+
+.logo-container {
+    padding: 40px;
 }
