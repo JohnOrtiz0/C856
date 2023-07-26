@@ -15,7 +15,8 @@
     font-size: 40px;
     text-align: center;
     color: white;
-    margin-top: 500px;
+    margin-top: 450px;
+    border-radius: 10px;
     background-color: #676767;
     opacity: 0.75;
 }
